@@ -30,4 +30,3 @@ soup = BeautifulSoup("""
 #BeautifulSoup만으로는 아래와 같은 형태로 찾을 수 있지만, re(Regular Expression)을 통하면 보다 강력하게 검색가능
 print(soup.find('b', {'class':'lime'}))
 print(soup.find('b', {'class':'lime'}).get_text())
-
